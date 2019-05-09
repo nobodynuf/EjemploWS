@@ -5,6 +5,29 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaAAD", "CapaAAD\CapaAAD.csproj", "{9A3392A3-41D5-4448-8BF8-ECD5DC2636E1}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CapaWS", "CapaWS\", "{9DC48167-EBD8-4234-9855-0239AEF5E611}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{9a3392a3-41d5-4448-8bf8-ecd5dc2636e1}|CapaAAD.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_10921"
+		Debug.AspNetCompiler.PhysicalPath = "CapaWS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_10921\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_10921"
+		Release.AspNetCompiler.PhysicalPath = "CapaWS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_10921\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "10921"
+		SlnRelativePath = "CapaWS\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +38,10 @@ Global
 		{9A3392A3-41D5-4448-8BF8-ECD5DC2636E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A3392A3-41D5-4448-8BF8-ECD5DC2636E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A3392A3-41D5-4448-8BF8-ECD5DC2636E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DC48167-EBD8-4234-9855-0239AEF5E611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC48167-EBD8-4234-9855-0239AEF5E611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC48167-EBD8-4234-9855-0239AEF5E611}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC48167-EBD8-4234-9855-0239AEF5E611}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
