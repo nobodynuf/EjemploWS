@@ -6,4 +6,7 @@ y blabla.
 
 Esto es illustrativo.
 
+Pueden ver el videotutorial desde mi canal de yutub
+https://youtu.be/H9cSD4pURO4
+
 También, estoy usando Visual Studio Enterprise asi que no se si funcionará en Community.
